@@ -46,5 +46,6 @@ export class BikesService {
     if (!bike) {
       throw new NotFoundException(`Bike with ID ${id} not found`);
     }
+    return "Bike deleted successfully";
   }
 }
